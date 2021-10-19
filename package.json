@@ -1,17 +1,14 @@
 {
   "name": "testcafe_basics",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testcafe chrome ./POM/tests"
   },
   "author": "hortiz",
   "license": "ISC",
   "dependencies": {
     "testcafe": "^1.16.1"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "description": ""
+  }
 }
