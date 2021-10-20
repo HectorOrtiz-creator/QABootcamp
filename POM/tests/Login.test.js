@@ -1,11 +1,12 @@
 import {t} from 'testcafe'
 import loginPage from '../pages/LoginPage'
+import HomePage from '../pages/HomePage'
 
 fixture("Login feature test")
-    .page("https://todoist.com/users/showlogin")
-    /* .beforeEach(async => {
-        await t.click('a[href="/users/showlogin"]')
-    }) */
+    .page("https://todoist.com")
+    .beforeEach(async t => {
+        await t.click(HomePage.homePageHeaderLogin)
+    }) 
 
 
 

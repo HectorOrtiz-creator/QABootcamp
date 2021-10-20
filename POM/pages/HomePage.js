@@ -2,7 +2,7 @@ import {Selector} from 'testcafe'
 
 class HomePage{
     constructor(){
-        this.homePageHeader = Selector('')
+        this.homePageHeaderLogin = Selector('a[href="/users/showlogin"]')
 
     }
 }
