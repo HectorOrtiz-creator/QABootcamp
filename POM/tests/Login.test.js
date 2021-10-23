@@ -16,7 +16,8 @@ test(`As a user I should be able to log in using valid creds`, async t => {
         .typeText(loginPage.usernameInput, 'hectorrtz16@gmail.com')
         .typeText(loginPage.passwordInput, 'jaia1684')
         .click(loginPage.loginButton)
-        .click(UserBoard.userSettings) // assert will be programed here...
+        .click(UserBoard.userSettings) 
+        //.expect(userSettings('.title').innerText).contains('Hector')// assert will be programed here...
         
 })
 
