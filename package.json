@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./POM/tests"
+    "test": "testcafe chrome:headless ./POM/tests -r xunit:resxml"
   },
   "author": "hortiz",
   "license": "ISC",
